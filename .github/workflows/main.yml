@@ -1,0 +1,20 @@
+# The repository name. (Required).
+name: "My-Repository"
+
+# The repository description. (Optional).
+description: "This is my repository!"
+
+# Whether the repository is private or not. (Optional, default is true).
+private: true
+
+# Whether the contents of your current directory should be sent to the repository or not (Optional, default is false).
+includeContent: false
+
+# Collaborators list (Optional).
+collaborators:
+  - collaborator:
+      name: "USER_NAME_1" # Collaborator name. (Required).
+      permission: "admin" # Collaborator permission -> push/pull/admin. (Optional, default is admin).
+  - collaborator:
+      name: "USER_NAME_2"
+      permission: "push"
