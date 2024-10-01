@@ -1,3 +1,7 @@
+
+on:
+    repository_dispatch:
+    
 # The repository name. (Required).
 name: "My-Repository"
 
